@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1> Array Concatination</h1>
+    </head>
+<body>
+    <p id="demo"></p>
+    <script>
+        let num1=[1,2,3,4,5]
+        let num2=[6,7,8,9,10]
+        let odd=[]
+        let even=[]
+        let sum=0
+        let sum1=0
+        let num3 = num1.concat(num2);
+        document.getElementById("demo").innerHTML = num3;
+        for(let i=0;i<num3.length;i++){
+        if(num3[i]%2!=0){
+        odd.push(num3[i])
+        
+        sum=sum+(num3[i])
+        }
+        else{
+        even.push(num3[i])
+        sum1=sum1+(num3[i])
+        }
+        }
+        console.log(num3)
+        console.log(odd)
+        console.log("The sum of odd numbers"+sum)
+        console.log(even)
+        console.log("The sum of even  numbers"+sum1)
+        
+        
+
+    </script>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+   <script>
+ 
+ let Arr = [2, 79, 38, 64, 57, 99];
+console.log("The Given numbers :  "  +Arr)
+for (var i = 0; i < Arr.length; i++)
+    for (var j = i+1; j < Arr.length; j++)
+        if (Arr[i] > Arr[j]) {
+            var x = Arr[i];
+            Arr[i] = Arr[j];
+            Arr[j] = x;
+       console.log(Arr)
+       
+        }
+
+        console.log("Numbers sorted in Ascending order:  "  +Arr);
+    </Script>
+    </body>
+    </html>

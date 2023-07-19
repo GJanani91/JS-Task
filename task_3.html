@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h2>Find the first element, which is divisible by 10 in the given array.</h2>
+  <p id="demo1"></p>
+  <p id="demo"></p>
+
+<script>
+const numbers = [35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49];
+let first = numbers.find(myFunction);
+document.getElementById("demo1").innerHTML ="The given numbers-"+ numbers;
+document.getElementById("demo").innerHTML = "Element divisible by 10 is -- " + first;
+
+function myFunction(value, index, array) {
+  return value%10=== 0;
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+<html>
+<body>
+<h3>wheather the numbers array has anyone of the element, which is divisible by 3.</h3>
+<p id="demo1"></p>
+<p id="demo"></p>
+<script>
+    const numbers=[35, 14, 70, 49, 21, 56, 7, 42, 28, 63, 49];
+    let div3 = numbers.some(myFunction)
+    document.getElementById("demo1").innerHTML="The given numbers are: "+numbers;
+    document.getElementById("demo").innerHTML="The given numbers are: "+ div3;
+    function myFunction(value,index,array){
+        return value%3===0;
+    }
+    </script>
+    </body>
+    </html>

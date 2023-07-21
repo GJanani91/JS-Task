@@ -1,12 +1,12 @@
-let str=('madam');
+let str='janani';
 checkPalindrome(str);
 function checkPalindrome(str) {
-    let x = str.split();
-    let y = x.reverse();
-    let z = y.join();
+    const x = str.split('');
+    const y = x.reverse();
+    const z = y.join('');
    /* if(str===z)//(str===z)?console.log("true"):colsole.log("false");
     console.log("true");
     else
     console.log("false");*/
-(str===z)?console.log("true"):colsole.log("false");
+(str===z)?console.log("true"):console.log("false");
   }

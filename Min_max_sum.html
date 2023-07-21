@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h4>To find Minimum,Maximum,Sum</h4>
+<script>
+const points = [40, 100, 10, 85, 25, 10,67,45,83];
+let sum = points.reduce(myFunction);
+function myArrayMax(arr) {
+  return Math.max.apply(null, arr);
+}
+function myArrayMin(arr) {
+  return Math.min.apply(null, arr);
+}
+function myFunction(total, value, index, array) {
+  return total + value;
+}
+console.log("The Given number is:"+points);
+console.log("The highest number is:"+myArrayMax(points));
+console.log("The lowest number is:"+myArrayMin(points));
+console.log("The sum of all the elements: "+sum);
+console.log("MIN : "+myArrayMin(points),"MAX : "+myArrayMax(points),"SUM : "+sum);
+</script>
+</body>
+</html>

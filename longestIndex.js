@@ -4,7 +4,7 @@ let z;
 
 function longestIndex(){
 for(let i=0;i<x.length;i++){
-if(x[i].length>y) //if(x[i].length>=y) output:World
+if(x[i].length>y)  //if(x[i].length>=y) output:World
 {
      y =x[i].length;
       z = x[i];

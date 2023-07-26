@@ -4,7 +4,7 @@ function checkPalindrome(str) {
     const x = str.split('');
     const y = x.reverse();
     const z = y.join('');
-   /* if(str===z)//(str===z)?console.log("true"):colsole.log("false");
+   /* if(str===z)//(str===z)?console.log("true"):colsole.log("false.");
     console.log("true");
     else
     console.log("false");*/

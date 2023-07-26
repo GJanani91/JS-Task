@@ -8,9 +8,11 @@ if(x[i].length>y) //if(x[i].length>=y) output:World
 {
      y =x[i].length;
       z = x[i];
+      
 
 }
 }
 }
 longestIndex();
-console.log(""+ z);
+console.log("The longest index value: "+ z);
+console.log("The index position of longest index value:  "+x.indexOf(z));

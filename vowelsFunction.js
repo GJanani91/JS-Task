@@ -1,4 +1,4 @@
-const str="Hello World";
+const str="Hello World! Aim";
 const v="a,e,i,o,u";
 let count=0;
 let str1=str.toLowerCase();
@@ -11,6 +11,7 @@ for(let i=0;i<str1.length;i++)
         if(str1[i]==v[j])
         count++;
     }
+
     
 }
 return count;

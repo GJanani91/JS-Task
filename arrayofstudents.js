@@ -40,8 +40,6 @@ function deleteStudentByid(id){
             console.log("the remaining student detaisls are: ");
             console.log(student);
         }
-
-    
     }
 }
 //to print the students details in a row
